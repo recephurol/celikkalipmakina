@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\CelikKalipMakina\publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CelikKalipMakina.dll">
+      <publishTime>03/27/2019 18:40:12</publishTime>
+    </File>
+    <File Include="bin/CelikKalipMakina.pdb">
+      <publishTime>03/27/2019 18:40:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/05/2017 09:59:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 10:08:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 03:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 03:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/28/2015 03:04:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/27/2019 10:55:07</publishTime>
+    </File>
+    <File Include="resim/resimgoster055d.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster2f45.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster4409.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster448b.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster49f1.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster5224.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster5311.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster590a.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster6468.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster6bd4.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster6ece.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster7281.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster986a.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgoster9922.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosteraddb.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterb55e.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterbac4.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterbdd4.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterc179.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterc792.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterc7b7.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterec91.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosteree55.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosteree8f.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="resim/resimgosterf5b1.jpg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/animate.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/bootstrap.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/calendar.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/components/bs-select.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/components/bs-switches.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/components/ion.rangeslider.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/components/rangeslider/sprite-skin-nice.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/dark.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/ek.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/font-icons.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/css/all.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400.woff2">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-brands-400d41d.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400.woff2">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-regular-400d41d.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900.woff2">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fontawesome/webfonts/fa-solid-900d41d.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/font-icons.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/font-icons.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/font-icons.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/font-icons.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/gunplayrg.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/lined-icons.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/lined-icons.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/lined-icons.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/lined-icons.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/Simple-Line-Icons.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/Simple-Line-Icons.svg">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/Simple-Line-Icons.ttf">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/Simple-Line-Icons.woff">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/fonts/Simple-Line-Iconsd41d.eot">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/grid.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/close.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/dotted.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/iconalt.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/menu-divider.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/play.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/submenu.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/widget-comment.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/icons/widget-link.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/parallax/parallax-bg.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/pattern.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/pattern2.html">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/images/preloader.gif">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/jquery.modal.min.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/magnific-popup.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/responsive.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/style.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/css/sweetalert2.scss">
+      <publishTime>03/27/2019 17:18:49</publishTime>
+    </File>
+    <File Include="tema/ultimate/fonts.css">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/favicon.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/favicon1.ico">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/favicon2.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/submenu-dark.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/submenu.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-comment%402x.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-comment-dark%402x.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-comment-dark.png">
+      <publishTime>03/27/2019 11:11:41</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-link%402x.png">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-link-dark%402x.png">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/icons/widget-link-dark.png">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/pattern2.png">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/preloader%402x.gif">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/preloader-dark%402x.gif">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/images/preloader-dark.gif">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/components/bs-select.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/components/bs-switches.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/components/rangeslider.min.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/functions.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/Global.js">
+      <publishTime>03/27/2019 17:35:14</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/jquery.gmap.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/jquery.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/jquery.modal.min.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/plugins.js">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="tema/ultimate/js/sweetalert.min.js">
+      <publishTime>03/27/2019 17:18:23</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>03/27/2019 17:25:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/27/2019 18:23:26</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>03/27/2019 10:55:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/27/2019 18:40:13</publishTime>
+    </File>
+    <File Include="yuklenen/genelayarlar/KV8O4GBYPE/5280-ultisan---original02.png">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+    <File Include="yuklenen/genelayarlar/KV8O4GBYPE/5280-ultisan---original021.jpg">
+      <publishTime>03/27/2019 11:11:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

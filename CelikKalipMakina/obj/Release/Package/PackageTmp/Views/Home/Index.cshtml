@@ -1,0 +1,99 @@
+﻿@model CelikKalipMakina.Models.Contact
+@{
+    ViewBag.Title = "İletişim";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="gmap" class="gmap slider-parallax"></section>
+<section id="content">
+
+    <div class="content-wrap">
+
+        <div class="container clearfix">
+
+            <!-- Postcontent
+            ============================================= -->
+            <div class="postcontent nobottommargin">
+
+                <h3 style="color:crimson">İletişim</h3>
+
+                <div class="contact-widget">
+
+                    <div class="contact-form-result"></div>
+
+                    @using (Html.BeginForm("MailIndex", "Home", FormMethod.Post, new { id = "mailForm",@class="",name= "mailForm" }))
+                    {
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-name">İSİM <small>*</small></label>
+                            @Html.TextBoxFor(x=>x.AdiSoyadi,new {@class= "sm-form-control required", id = "AdiSoyadi", name = "AdiSoyadi" })
+                        </div>
+
+                        <div class="col_one_third">
+                            <label for="template-contactform-email">EMAIL <small>*</small></label>
+                            @Html.TextBoxFor(x=>x.EMail,new { id = "EMail", name = "EMail",@class="required email sm-form-control" })
+                        </div>
+
+                        <div class="col_one_third col_last">
+                            <label for="template-contactform-phone">TELEFON</label>
+                            @Html.TextBoxFor(x => x.Telefon, new { id = "Telefon", name = "Telefon", @class = "sm-form-control" })
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_two_third">
+                            <label for="template-contactform-subject">KONU <small>*</small></label>
+                            @Html.TextBoxFor(x => x.Konu, new { id = "Konu", name = "Konu", @class = "required sm-form-control" })
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="col_full">
+                            <label for="template-contactform-message">MESAJ <small>*</small></label>
+                            @Html.TextAreaFor(x=>x.Mesaj,new {@class= "required sm-form-control",id="Mesaj",name="Mesaj" })
+                        </div>
+
+                        <div class="col_full hidden">
+                            <input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+                        </div>
+
+                        <div class="col_full">
+                            <button class="button" id="btnMailGonder" name="btnMailGonder" value="Gonder">Mesajı Gönder</button>
+                        </div>
+                    }
+                </div>
+
+            </div><!-- .postcontent end -->
+            <!-- Sidebar
+            ============================================= -->
+            <div class="sidebar col_last nobottommargin">
+
+                <address>
+                    <div style="font-size: 20px;">
+                        <i class="fas fa-map-marker-alt" style="font-size: 22px;"></i>
+                        Küçükbalıklı Mahallesi Katip Sokak No:7 Osmangazi - BURSA<br>
+                    </div>
+                </address>
+                <a style="font-size: 20px;" href="Tel:+90 538 503 4 609"><i class="fas fa-mobile" style="font-size: 22px;"></i> &nbsp&nbsp+90 538 503 4 609</a><br>
+                <a style="font-size: 20px;" href="mailto:s.celik@celikkalipmakina.com"><i class="fas fa-envelope" style="font-size: 22px;"></i> s.celik@celikkalipmakina.com</a>
+                <div class="col_half col_last">
+
+                    <div class="bottommargin-sm clearfix" style="float: right;">
+                        <a href="https://www.facebook.com/semih.celik.313" target="_blank" class="social-icon si-colored si-small si-rounded si-facebook" title="Facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/smkclk/" target="_blank" class="social-icon si-colored si-small si-rounded si-instagram" title="Instagram">
+                            <i class="icon-instagram"></i>
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div><!-- .sidebar end -->
+
+        </div>
+
+    </div>
+    </section>
